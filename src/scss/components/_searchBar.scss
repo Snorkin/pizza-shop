@@ -1,0 +1,42 @@
+@import '../variables';
+
+.root {
+  position: relative;
+}
+
+.input {
+  padding: 13px 30px;
+  border-color: $blue;
+  border-radius: 30px ;
+  margin-right: 10px;
+  font-weight: bold;
+  width: 350px;
+  cursor: pointer;
+
+  &:focus {
+    border: 3px solid $blue;
+  }
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
