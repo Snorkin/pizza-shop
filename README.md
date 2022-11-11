@@ -3,7 +3,7 @@
 
 ## Tools i used
 
-React toolkt as a state manager for app. /br
-Axios for getting data from backend.
-React-router 6 for spa routing. 
+React toolkt as a state manager for app. \
+Axios for getting data from backend. \
+React-router 6 for spa routing. \
 SASS for styles.
